@@ -1,0 +1,37 @@
+message PortfolioAsset {
+  required string network = 1;
+  required bytes address = 2;
+}
+
+message PhononGive {
+  required string network = 1;
+  required bytes address = 2;
+}
+
+message PhononFull {
+  required string network = 1;
+  required bytes address = 2;
+  required Portfolio = 3;
+  required bytes hardwareSignature = 4;
+}
+
+message Portfolio {
+  repeated PortfolioAsset = 1;
+}
+
+message Want {
+  required string network = 1;
+  required bytes address = 2;
+  required string qty = 3;
+}
+
+message Order {
+  repeated PhononGive = 1;
+  repeated Want = 2;
+}
+
+message Advertisement {
+  repeated PhononFull = 1;
+  repeated PhononGive = 2;
+  repeated Order;
+}

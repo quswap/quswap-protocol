@@ -11,12 +11,12 @@ message PhononGive {
 message PhononFull {
   required string network = 1;
   required bytes address = 2;
-  required Portfolio = 3;
+  required Portfolio portfolio = 3;
   required bytes hardwareSignature = 4;
 }
 
 message Portfolio {
-  repeated PortfolioAsset = 1;
+  repeated PortfolioAsset assets = 1;
 }
 
 message Want {
@@ -26,12 +26,11 @@ message Want {
 }
 
 message Order {
-  repeated PhononGive = 1;
-  repeated Want = 2;
+  repeated PhononGive gives = 1;
+  repeated Want wants = 2;
 }
 
 message Advertisement {
-  repeated PhononFull = 1;
-  repeated PhononGive = 2;
-  repeated Order;
+  repeated PhononFull phonons = 1;
+  repeated Order orders = 2;
 }

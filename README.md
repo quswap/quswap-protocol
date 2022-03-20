@@ -1,4 +1,4 @@
-# quswap-sdk
+# quswap-protocol
 
 ## qup2p
 

@@ -23,6 +23,7 @@
     "libp2p-tcp": "^0.17.2",
     "libp2p-webrtc-star": "^0.25.0",
     "libp2p-websockets": "^0.16.2",
+    "lodash": "^4.17.21",
     "peer-info": "^0.17.5",
     "wrtc": "^0.4.7"
   },
@@ -30,6 +31,7 @@
     "@boringcrypto/boring-solidity": "https://github.com/boringcrypto/BoringSolidity",
     "@openzeppelin/contracts": "^4.5.0",
     "@openzeppelin/contracts-upgradeable": "^4.5.2",
-    "hardhat": "^2.9.1"
+    "hardhat": "^2.9.1",
+    "nice-repl": "^0.1.2"
   }
 }

@@ -2,7 +2,7 @@
   "name": "quswap-protocol",
   "version": "0.1.0",
   "description": "quswap SDK",
-  "main": "index.js",
+  "main": "lib/peer.js",
   "repository": "https://github.com/quswap/quswap-protocol",
   "author": "quDAO",
   "license": "MIT",

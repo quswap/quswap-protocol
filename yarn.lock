@@ -1391,10 +1391,10 @@ cross-spawn@^7.0.1, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-cryptico@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/cryptico/-/cryptico-1.0.2.tgz#b1310d68270c9dcf50ded54ae13445af2b64071b"
-  integrity sha1-sTENaCcMnc9Q3tVK4TRFrytkBxs=
+cryptico-js@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cryptico-js/-/cryptico-js-1.1.0.tgz#8b333e23aaddfce819fd2f5e49043f81397531d6"
+  integrity sha1-izM+I6rd/OgZ/S9eSQQ/gTl1MdY=
 
 dashdash@^1.12.0:
   version "1.14.1"

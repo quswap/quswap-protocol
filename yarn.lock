@@ -5098,6 +5098,11 @@ tar@^4:
     safe-buffer "^5.2.1"
     yallist "^3.1.1"
 
+the-global-object@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/the-global-object/-/the-global-object-1.0.2.tgz#ccf0d50deb3882060289a747541fb7f83dec99ce"
+  integrity sha512-VqyWD8S07ipzpg+sqnBxEAf/YUyFdOV/VSCCZwj1ct8rNzsSJU8pavaoCZsR4Zav6gpESZal9z3sil/gP4cvXA==
+
 timeout-abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/timeout-abort-controller/-/timeout-abort-controller-3.0.0.tgz#dd57ffca041652c03769904f8d95afd93fb95595"

@@ -16,6 +16,7 @@
   "dependencies": {
     "base64url": "^3.0.1",
     "buffer": "^6.0.3",
+    "cryptico": "^1.0.2",
     "cryptico-js": "^1.1.0",
     "ethers": "^5.6.1",
     "is-browser": "^2.1.0",

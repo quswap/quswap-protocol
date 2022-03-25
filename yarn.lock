@@ -1396,6 +1396,11 @@ cryptico-js@^1.1.0:
   resolved "https://registry.yarnpkg.com/cryptico-js/-/cryptico-js-1.1.0.tgz#8b333e23aaddfce819fd2f5e49043f81397531d6"
   integrity sha1-izM+I6rd/OgZ/S9eSQQ/gTl1MdY=
 
+cryptico@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/cryptico/-/cryptico-1.0.2.tgz#b1310d68270c9dcf50ded54ae13445af2b64071b"
+  integrity sha1-sTENaCcMnc9Q3tVK4TRFrytkBxs=
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"

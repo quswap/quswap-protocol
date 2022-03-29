@@ -5,7 +5,7 @@ var proto = require("./lib/proto");
 
 var ethers = require("ethers");
 var wallet = new ethers.Wallet(
-  ethers.utils.solidityKeccak256(["string"], ["dontusethis2"])
+  ethers.utils.solidityKeccak256(["string"], ["dontusethis1"])
 ).connect(new ethers.providers.JsonRpcProvider("http://localhost:8545"));
 var PeerId = require("peer-id");
 var { cryptoFromSeed } = require("./lib/id");
@@ -15,8 +15,8 @@ var go = async () => {
     password: "woop",
   });
   qu.on("peer:discovery", console.log);
-  await qu.start();
-  await qu.pubsub.start();
+//  await qu.start();
+ // await qu.pubsub.start();
   return qu;
 };
 

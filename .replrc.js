@@ -19,3 +19,5 @@ var go = async () => {
   await qu.pubsub.start();
   return qu;
 };
+
+var WStar = require('libp2p-webrtc-star')

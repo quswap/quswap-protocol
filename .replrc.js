@@ -15,7 +15,7 @@ var go = async () => {
     password: "woop",
   });
   qu.on("peer:discovery", console.log);
-//  await qu.start();
+  await qu.start();
  // await qu.pubsub.start();
   return qu;
 };
